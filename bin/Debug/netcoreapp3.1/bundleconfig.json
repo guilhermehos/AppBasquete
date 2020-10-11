@@ -1,0 +1,39 @@
+[
+  {
+    "outputFileName": "wwwroot/js/bundle/app.general.min.js",
+    "inputFiles": [
+      "wwwroot/js/plugins/jquery/dist/jquery.min.js",
+      "wwwroot/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "wwwroot/bower/angular/angular.min.js",
+      "wwwroot/bower/angular-ui-router/angular-ui-router.min.js",
+      "wwwroot/bower/angular-cookies/angular-cookies.min.js",
+      "wwwroot/bower/angular-animate/angular-animate.min.js",
+      "wwwroot/bower/oclazyload/ocLazyLoad.min.js",
+      "wwwroot/bower/angular-locale/angular-locale_pt-br.js",
+      "wwwroot/bower/angular-bootstrap/ui-bootstrap-tpls.min.js",
+      "wwwroot/js/plugins/toaster/toaster.js",
+      "wwwroot/js/plugins/translate/angular-translate.min.js",
+      "wwwroot/bower/sweetalert2/sweetalert2.min.js",
+      "wwwroot/js/angular/app.js",
+      "wwwroot/js/angular/config.router.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/bundle/app.services.min.js",
+    "inputFiles": [
+      "wwwroot/js/angular/services/urlService.js",
+      "wwwroot/js/angular/services/toasterService.js",
+      "wwwroot/js/angular/services/apiService.js",
+      "wwwroot/js/angular/services/alertService.js",
+      "wwwroot/js/angular/controllers/sidebar/sidebarCtrl.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/bundle/app.min.css",
+    "inputFiles": [
+      "wwwroot/css/dev.css",
+      "wwwroot/js/plugins/toaster/toaster.css",
+      "wwwroot/bower/sweetalert2/sweetalert2.min.css"
+    ]
+  }
+]

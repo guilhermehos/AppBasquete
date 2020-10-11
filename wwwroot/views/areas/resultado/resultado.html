@@ -1,0 +1,62 @@
+﻿<div class="main-content" ng-controller="resultadoCtrl">
+    <!-- Navbar -->
+    <nav class="navbar navbar-top navbar-horizontal navbar-expand-md navbar-dark">
+    </nav>
+    <!-- Header -->
+    <!-- Page content -->
+    <div class="container">
+        <div class="header">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="row"  style="margin-top: 15px;">
+                        <h2>Resultados</h2> <div class="text-right" style="margin-left: auto;">{{model.dataInicio | date:'dd/MM/yyyy'}} até {{model.dataFim | date:'dd/MM/yyyy'}}</div>
+                    </div>
+                    <div class="row row-classic">
+                        <span>Jogos disputados</span> <div class="text-right right-text">{{model.jogosDisputados}}</div>
+                    </div>
+                    <div class="row row-classic">
+                        <span>Total de pontos marcados na temporada</span> <div class="text-right right-text">{{model.totalDePontos}}</div>
+                    </div>
+                    <div class="row row-classic">
+                        <span>Media de pontos por jogo</span> <div class="text-right right-text">{{model.mediaPorJogo}}</div>
+                    </div>
+                    <div class="row row-classic">
+                        <span>Maior pontuação em um jogo</span> <div class="text-right right-text">{{model.maiorPontuacaoPorJogo}}</div>
+                    </div>
+                    <div class="row row-classic">
+                        <span>Menor Pontuação em um jogo</span> <div class="text-right right-text">{{model.menorPontuacaoPorJogo}}</div>
+                    </div>
+                    <div class="row row-classic">
+                        <span>Quantidade de vezes que bateu o proprio recorde</span> <div class="text-right right-text">{{model.recorde}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <style>
+        html, body, #app, .bg-default {
+            margin: 0;
+            height: 100%;
+            background: #e4e9ef;
+        }
+
+        .header {
+            padding-top: 5em;
+        }
+
+        .row-classic {
+            margin-top: 15px;
+            border-bottom: 2px solid #000000;
+        }
+
+        .right-text {
+            margin-left: auto;
+        }
+        .main-content {
+            background: #e4e9ef;
+        }
+    </style>
+</div>
