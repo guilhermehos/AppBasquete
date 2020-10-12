@@ -12,5 +12,7 @@ namespace AppDemo.Data.Repository
         IEnumerable<TEntity> GetAll();
         void Add(TEntity obj);
         int SaveChanges();
+
+        T Query<T>(string query);
     }
 }

@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[3.2.449, )"
             },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
             "LinqKit.Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.0, )"

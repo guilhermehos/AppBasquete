@@ -58,7 +58,7 @@ namespace AppDemo
 
             //Using static files
             app.UseStaticFiles();
-            app.UseRouting();
+            //app.UseRouting();
 
             //app.UseEndpoints(endpoints =>
             //{
@@ -68,7 +68,7 @@ namespace AppDemo
             //    });
             //});
 
-            app.UseMvc();
+            //app.UseMvc();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(name: "default", template: "{controller=Pontos}/{action=Index}/{id?}");

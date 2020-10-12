@@ -55,3 +55,16 @@ app.constant('JS_REQUIRES', {
         
     ]
 });
+
+app.run(['$rootScope', '$location',
+    function ($rootScope, $location) {
+
+        $rootScope.homeScreen = function () {
+            $location.path('/app/home');
+        };
+
+        if ($location.url() === "") {
+            $rootScope.homeScreen();
+        }
+    }
+]);

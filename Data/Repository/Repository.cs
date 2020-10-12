@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using LinqKit;
 using Microsoft.EntityFrameworkCore;
 using AppDemo.Models;
+using System.Data;
+using Microsoft.Data.SqlClient;
+using Dapper;
 
 namespace AppDemo.Data.Repository
 {
@@ -39,6 +42,19 @@ namespace AppDemo.Data.Repository
         {
             return DbSet.ToList();
         }
+        public T Query<T>(string query)
+        {
+            using (var cn = connection)
+            {
+                return cn.QueryFirst<T>($@"{query}");
+            }
+        }
+
+        public IDbConnection connection
+        {
+            get { return new SqlConnection(Db.Database.GetDbConnection().ConnectionString); }
+        }
+
 
         public int SaveChanges()
         {

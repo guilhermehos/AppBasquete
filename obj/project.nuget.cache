@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RuHZAlunutCvGGmzyjaAsxBhP1YI8J2QqQNYdwaFmVzro4kwsYaVUcKAM9eFO4ZHwvOX5rQhuWc3Hrt3rsxqRw==",
+  "dgSpecHash": "3L0E4oP+s7HUzYl3xkjxSxslGB2Z5q0LhW1LvzL4FNnc/auOm98zZYCoHRnkhzUWD20M1Al8Yfpgo9tCVlFsTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vitor\\source\\repos\\AppDemo\\AppDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vitor\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
+    "C:\\Users\\Vitor\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\Vitor\\.nuget\\packages\\linqkit.microsoft.entityframeworkcore\\3.0.0\\linqkit.microsoft.entityframeworkcore.3.0.0.nupkg.sha512",
     "C:\\Users\\Vitor\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Vitor\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.8\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.8.nupkg.sha512",
@@ -102,7 +103,7 @@
     "C:\\Users\\Vitor\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\Vitor\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\Vitor\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "C:\\Users\\Vitor\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\Vitor\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\Vitor\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Vitor\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Vitor\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
