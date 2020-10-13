@@ -50,6 +50,14 @@ namespace AppDemo.Data.Repository
             }
         }
 
+        public IEnumerable<T> QueryList<T>(string query)
+        {
+            using (var cn = connection)
+            {
+                return cn.Query<T>($@"{query}").ToList();
+            }
+        }
+
         public IDbConnection connection
         {
             get { return new SqlConnection(Db.Database.GetDbConnection().ConnectionString); }
